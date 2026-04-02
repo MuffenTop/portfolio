@@ -42,7 +42,7 @@
       ]
     ],
     "experiments": {
-      "baseUrl": "/portfolio",
+      "baseUrl": "https://jasmine-mullen.github.io/portfolio/",
       "typedRoutes": true,
       "reactCompiler": true
     }
