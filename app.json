@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ReactPortfolio",
-    "slug": "ReactPortfolio",
+    "name": "portfolio",
+    "slug": "portfolio",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -22,7 +22,8 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "output": "static",
+      "output": "server",
+      "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
@@ -41,6 +42,7 @@
       ]
     ],
     "experiments": {
+      "baseUrl": "/portfolio",
       "typedRoutes": true,
       "reactCompiler": true
     }
